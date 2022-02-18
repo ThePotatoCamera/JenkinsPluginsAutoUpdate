@@ -1,1 +1,3 @@
 geckodriver.log
+dist/
+/src/jenkins_plugins_auto_update.egg-info/
