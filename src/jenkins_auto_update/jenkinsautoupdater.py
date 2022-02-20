@@ -43,7 +43,11 @@ if sys.argv[4] and sys.argv[4] == "True" or sys.argv[4] == "true":
 
 driver.close()
 
-print("Done, Jenkins is now restarting, so please wait a few minutes.")
+if sys.argv[4] and sys.argv[4] == "True" or sys.argv[4] == "true":
+    print("Done, Jenkins is now restarting, so please wait a few minutes.")
+else:
+    print("Done, plugins should be installing now. Check the progress on Jenkins.")
+
 print("If you liked this, please consider starring the repo on GitHub.")
 
 sys.exit(0)
