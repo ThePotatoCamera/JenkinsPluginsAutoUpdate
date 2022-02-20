@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="jenkins-plugins-auto-update",
-    version="1.0.0",
+    version="1.0.1",
     author="ThePotatoCamera",
     author_email="alex0xela@outlook.com",
     description="Updates Jenkins plugins with the magic of automation... and Selenium. ",
